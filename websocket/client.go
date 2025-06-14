@@ -4,7 +4,6 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"log"
 	"sync"
 	"time"
 
@@ -127,11 +126,10 @@ func (m *MEXCWebSocket) handleLoop() {
 	listener := m.getListener(update)
 	if listener != nil {
 		listener(message)
-
 		return
 	}
 
-	log.Println(fmt.Sprintf("Unhandled: %v", update))
+	// log.Println(fmt.Sprintf("Unhandled: %v", update))
 }
 
 func (m *MEXCWebSocket) getListener(argJson interface{}) OnReceive {
