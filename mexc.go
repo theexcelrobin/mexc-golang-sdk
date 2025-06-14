@@ -2,10 +2,11 @@ package mexc
 
 import (
 	"context"
-	mexchttp "github.com/bogdankorobka/mexc-golang-sdk/http"
-	mexchttpmarket "github.com/bogdankorobka/mexc-golang-sdk/http/market"
-	mexcws "github.com/bogdankorobka/mexc-golang-sdk/websocket"
-	mexcwsmarket "github.com/bogdankorobka/mexc-golang-sdk/websocket/market"
+
+	mexchttp "github.com/theexcelrobin/mexc-golang-sdk/http"
+	mexchttpmarket "github.com/theexcelrobin/mexc-golang-sdk/http/market"
+	mexcws "github.com/theexcelrobin/mexc-golang-sdk/websocket"
+	mexcwsmarket "github.com/theexcelrobin/mexc-golang-sdk/websocket/market"
 )
 
 type Rest struct {

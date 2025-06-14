@@ -1,7 +1,7 @@
 package mexcwsmarket
 
 import (
-	mexcws "github.com/bogdankorobka/mexc-golang-sdk/websocket"
+	mexcws "github.com/theexcelrobin/mexc-golang-sdk/websocket"
 )
 
 func (s *Service) Ping() error {

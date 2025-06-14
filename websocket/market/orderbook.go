@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	mexcws "github.com/bogdankorobka/mexc-golang-sdk/websocket"
+	mexcws "github.com/theexcelrobin/mexc-golang-sdk/websocket"
 )
 
 type OrderBook struct {

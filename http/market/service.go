@@ -4,9 +4,10 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	mexchttp "github.com/bogdankorobka/mexc-golang-sdk/http"
 	"strconv"
 	"time"
+
+	mexchttp "github.com/theexcelrobin/mexc-golang-sdk/http"
 )
 
 type Service struct {
